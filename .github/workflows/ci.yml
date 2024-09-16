@@ -48,9 +48,7 @@ jobs:
         os:
           - ubuntu-latest
           - macOS-latest
-          # Windows CI build disabled for the time being. More information:
-          # https://github.com/hannobraun/fornjot/issues/2376
-          # - windows-latest
+          - windows-latest
     runs-on: ${{matrix.os}}
     steps:
       - name: Check out repository
